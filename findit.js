@@ -21,4 +21,11 @@ $(document).ready(function(){
    return false;
     });
 
+   $("#btn3").click(function(){
+   var q = $("#test3").val(); 
+   var url1 = "https://www.google.com/search?&q=site:jsfiddle.net+";
+   var url = url1+q;
+   window.open(url, 'window name', params);
+   return false;
+    }); 
   });
