@@ -13,9 +13,9 @@ $(document).ready(function(){
    return false;
     });
   
-    $("#btn1").click(function(){
+    $("#btn2").click(function(){
    var q = $("#test3").val(); 
-   var url1 = "https://www.google.com/search?q=";
+   var url1 = "https://glitch.com/search?q=";
    var url = url1+q;
    window.open(url, 'window name', params);
    return false;
